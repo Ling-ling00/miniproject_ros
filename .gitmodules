@@ -1,3 +1,6 @@
 [submodule "firmware/imu_joy_uros/micro_ros_stm32cubemx_utils"]
 	path = firmware/imu_joy_uros/micro_ros_stm32cubemx_utils
 	url = https://github.com/Ling-ling00/micro_ros_stm32cubemx_utils_for_fun5
+[submodule "firmware/imu_joy_uros/MPU6050"]
+	path = firmware/imu_joy_uros/MPU6050
+	url = https://github.com/leech001/MPU6050
