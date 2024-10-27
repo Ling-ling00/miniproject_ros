@@ -1,0 +1,14 @@
+../Core/Src/main.c:158:5:main	2
+../Core/Src/main.c:242:6:SystemClock_Config	3
+../Core/Src/main.c:290:13:MX_I2C1_Init	4
+../Core/Src/main.c:338:13:MX_IWDG_Init	2
+../Core/Src/main.c:367:13:MX_LPUART1_UART_Init	5
+../Core/Src/main.c:412:13:MX_DMA_Init	1
+../Core/Src/main.c:434:13:MX_GPIO_Init	1
+../Core/Src/main.c:481:6:timer_callback	5
+../Core/Src/main.c:528:6:service_callback	2
+../Core/Src/main.c:552:6:imu_service_callback	3
+../Core/Src/main.c:576:6:subscription_callback	1
+../Core/Src/main.c:590:6:StartDefaultTask	4
+../Core/Src/main.c:718:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:735:6:Error_Handler	1
