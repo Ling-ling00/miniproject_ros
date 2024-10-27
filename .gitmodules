@@ -4,3 +4,6 @@
 [submodule "firmware/imu_joy_uros/MPU6050"]
 	path = firmware/imu_joy_uros/MPU6050
 	url = https://github.com/leech001/MPU6050
+[submodule "src/turtlebot3_multi_robot"]
+	path = src/turtlebot3_multi_robot
+	url = https://github.com/Ling-ling00/turtlebot3_multi_robot_for_miniproject
