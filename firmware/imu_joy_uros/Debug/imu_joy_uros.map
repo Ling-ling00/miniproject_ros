@@ -11969,14 +11969,14 @@ LOAD /opt/st/stm32cubeide_1.16.1/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x0801d7c0                        . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x0801d7c0       0x60 ./Core/Src/KalmanSensorFusion.o
- .rodata        0x0801d820       0xea ./Core/Src/main.o
- *fill*         0x0801d90a        0x2 
- .rodata        0x0801d90c        0x5 ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
- *fill*         0x0801d911        0x3 
- .rodata        0x0801d914        0xd ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
- *fill*         0x0801d921        0x3 
- .rodata        0x0801d924        0xa ../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/libmicroros.a(libmicroxrcedds_client-session_info.c.obj)
- *fill*         0x0801d92e        0x2 
+ .rodata        0x0801d820       0xe6 ./Core/Src/main.o
+ *fill*         0x0801d906        0x2 
+ .rodata        0x0801d908        0x5 ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
+ *fill*         0x0801d90d        0x3 
+ .rodata        0x0801d910        0xd ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
+ *fill*         0x0801d91d        0x3 
+ .rodata        0x0801d920        0xa ../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/libmicroros.a(libmicroxrcedds_client-session_info.c.obj)
+ *fill*         0x0801d92a        0x6 
  .rodata        0x0801d930       0x10 ../micro_ros_stm32cubemx_utils/microros_static_library_ide/libmicroros/libmicroros.a(librmw_microxrcedds-rmw_wait.c.obj)
  *(.rodata*)
  .rodata.defaultTask_attributes

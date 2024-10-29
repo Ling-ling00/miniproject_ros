@@ -623,12 +623,12 @@ void StartDefaultTask(void *argument)
 	  // Initialize and modify options (Set DOMAIN ID to 1)
 	  init_options = rcl_get_zero_initialized_init_options();
 	  RCSOFTCHECK(rcl_init_options_init(&init_options, allocator));
-	  RCSOFTCHECK(rcl_init_options_set_domain_id(&init_options, 1));
+	  RCSOFTCHECK(rcl_init_options_set_domain_id(&init_options, 28));
 	  // Initialize rclc support object with custom options
 	  rclc_support_init_with_options(&support, 0, NULL, &init_options, &allocator);
 
 	  // create node
-	  rclc_node_init_default(&node, "cubemx_node", "", &support);
+	  rclc_node_init_default(&node, "imu_node", "", &support);
 
 	  //time sync
 	  rmw_uros_sync_session(1000);
@@ -685,7 +685,7 @@ void StartDefaultTask(void *argument)
 			  &reset_client,
 			  &node,
 			  ROSIDL_GET_SRV_TYPE_SUPPORT(std_srvs, srv, Empty),
-			  "/reset_simulation"
+			  "/reset_world"
 	  );
 
 	  //create executer
