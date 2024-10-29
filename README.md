@@ -6,7 +6,9 @@
 This project is a Robot Chasing Game involving 5 robots, with 4 chasing robots and 1 escape robot. Players control the chasing robots through a joystick, allowing control of only one chasing robot at a time, with a button to switch between them. The escape robot is controlled by tilting an IMU, responding to rotations around the x and y axes to navigate and evade capture. The game ends when one of the chasing robots successfully contacts the escape robot
 
 ### Schematics of System
-![alt text](image/image.png)
+
+![image (1)](https://github.com/user-attachments/assets/848787b1-edfd-47f1-b174-0e3c009dc94d)
+
 The schematics consist of two parts:
 - ROS2, which is used for simulation in Gazebo.
 - micro-ROS, which is the controller that is controlled by a joystick and IMU. 
